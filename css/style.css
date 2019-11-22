@@ -993,16 +993,18 @@ header#header {
 }
 
 .contact-bt input[type="button"] {
-    border: none;
-    line-height: 81px;
-    padding: 0 120px;
-    font-size: 2em;
-    color: #fff;
-    background:url("../images/arrow-icon.png") no-repeat #ed6b9e;
-    background-size: 17px 26px;
-    background-position: top 48% right 25px;
-    text-decoration: none;
-    cursor: pointer;
+     border: none;
+     line-height: 81px;
+     padding: 0;
+     font-size: 2em;
+     color: #fff;
+     background: url(../images/arrow-icon.png) no-repeat #ed6b9e;
+     background-size: 17px 26px;
+     background-position: top 48% right 25px;
+     text-decoration: none;
+     cursor: pointer;
+     width: 100%;
+     max-width: 368px;
 }
 
 @keyframes shine {
